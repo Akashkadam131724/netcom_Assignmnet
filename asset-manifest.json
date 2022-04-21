@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/netcom_Assignmnet/static/css/main.c82e77a7.css",
+    "main.js": "/netcom_Assignmnet/static/js/main.81c5d510.js",
+    "index.html": "/netcom_Assignmnet/index.html",
+    "main.c82e77a7.css.map": "/netcom_Assignmnet/static/css/main.c82e77a7.css.map",
+    "main.81c5d510.js.map": "/netcom_Assignmnet/static/js/main.81c5d510.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c82e77a7.css",
+    "static/js/main.81c5d510.js"
+  ]
+}
