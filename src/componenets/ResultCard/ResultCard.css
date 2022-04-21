@@ -1,0 +1,152 @@
+   .my_results{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+   }
+   .myResultCard{
+    height: 320px;
+    margin-bottom: 40px;
+    background-color: #fff;
+    box-shadow: 2px 2px 6px #bfbfbf29;
+    position: relative;
+    flex: 0 0 50%;
+      max-width: 50%;
+      width: 100%;
+      min-height: 1px;
+      padding-right: 15px;
+      padding-left: 15px;
+   }
+   .cardeHeader{
+    font-size: 16px;
+    line-height: 52px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 700;
+    letter-spacing: 0;
+    height: 52px;
+    padding-right: 20px;
+    background-image: url(https://netcomlearning.s3.amazonaws.com/website-img/banner-img/module_card_header_image.svg);
+    color: #fff;
+    text-transform: uppercase;
+    text-align: right;
+   }
+   .module_logo{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    height: 80px;
+    width: auto;
+    vertical-align: middle;
+    border-style: none;
+   }
+   .cardContent{
+    padding: 60px 20px 0;
+    margin-bottom: 0;
+    display: flex;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 1rem;
+   }
+   .cardContent li:first-child {
+    height: 60px;
+  }
+  .cardContent li a {
+    color: #000;
+    font-size: 20px;
+    line-height: 26px;
+    font-family: 'Roboto Slab',serif;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+    background-color: transparent;
+  }
+  .courseDuration{
+    padding: 5px 20px 16px 16px;
+    margin-left: 14px;
+    margin-bottom: 0;
+    list-style: none;
+    margin-top: 0;
+    display: block;
+    padding-left: 0;
+  }
+  .courseDuration li{
+    margin-right: 0.5rem;
+    color: #707070;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 700;
+    letter-spacing: 0;
+    display: inline-block;
+  }
+  .productList{
+    padding: 5px 20px 0;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    list-style: none;
+    margin-top: 0;
+  }
+  .productList li{
+    margin-right: 0.5rem;
+    color: #919191;
+    font-size: 11px;
+    line-height: 22px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    letter-spacing: 0;
+    padding: 0 10px;
+    margin-bottom: 4px;
+    background: #e6e6e6;
+    text-transform: capitalize;
+    border-radius: 4px;
+    display: inline-block;
+  }
+  
+  @media (max-width : 768px) {
+    .ms_learn_catalog{
+      padding: 0;
+      width: 100%;
+    }
+    .ms_Course_Card{
+      width: auto;
+      padding-left: 0px;
+    }
+    .myResultCard{
+      height: auto;
+      margin-bottom: 40px;
+      background-color: #fff;
+      box-shadow: 2px 2px 6px #bfbfbf29;
+      position: relative;
+        width: 100%;
+     }
+     .courseDuration{
+       margin-top: 1rem;
+     }
+     .courseDuration li{
+        margin-top: 1rem;
+     }
+  }
+  @media (max-width : 450px) {
+    .my_results{
+      flex-direction: column;
+    }
+    .myResultCard{
+        max-width: 100%;
+     }
+    .ms_learn_catalog{
+      padding: 0;
+      width: 100%;
+    }
+    .ms_Course_Card{
+      width: auto;
+      padding-left: 0px;
+    }
+    .myResultCard{
+      height: auto;
+      margin-bottom: 40px;
+      background-color: #fff;
+      box-shadow: 2px 2px 6px #bfbfbf29;
+      position: relative;
+        width: 100%;
+     }
+  }

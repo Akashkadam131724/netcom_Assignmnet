@@ -1,0 +1,14 @@
+.close_filter_btn{
+    display: block;
+    width: 100%;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    text-align: center;
+    /* color: green; */
+    border: none;
+    /* padding: 1rem; */
+    background-color: rgb(195, 184, 184);
+  }
+  .close_filter_btn:hover{
+      cursor: pointer;
+  }
