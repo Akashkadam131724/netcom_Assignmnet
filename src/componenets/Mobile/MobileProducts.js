@@ -10,7 +10,7 @@ function MobileProducts({products, levels, roles,updateMyBtn, isOpen }) {
         <h4 className='msProductCatHeading'>PRODUCTS</h4>
         <div className='productSearch'>
           <input type="search" placeholder='find a product' />
-          <span className='serach_icon'>serach</span>
+          <span className='serach_icon'>search</span>
         </div>
         <div className='productsFilter scroll'>
           {products && products.map((item, indx) => {
@@ -36,7 +36,7 @@ function MobileProducts({products, levels, roles,updateMyBtn, isOpen }) {
         <h4 className='msProductCatHeading'>ROLES</h4>
         <div className='productSearch'>
           <input type="search" placeholder='find a role' />
-          <span className='serach_icon'>serach</span>
+          <span className='serach_icon'>search</span>
         </div>
         <div className='role_scroll'>
           {roles && roles.map((item) => {
