@@ -8,7 +8,7 @@ function Products({products, levels, roles,updateNcomData, ncomData}) {
     <h4 className='msProductCatHeading'>PRODUCTS</h4>
     <div className='productSearch'>
       <input type="search" placeholder='find a product' />
-      <span className='serach_icon'>serach</span>
+      <span className='serach_icon'>search</span>
     </div>
     <div className='productsFilter scroll'>
       {products && products.map((item, indx) => {
@@ -34,8 +34,8 @@ function Products({products, levels, roles,updateNcomData, ncomData}) {
     <h4 className='msProductCatHeading'>ROLES</h4>
     <div className='productSearch'>
       <input type="search" placeholder='find a role' />
-      <span className='serach_icon'>serach</span>
-    </div>
+      <span className='serach_icon'>seach</span>
+    </div>r
     <div className='role_scroll'>
       {roles && roles.map((item) => {
         return <details key={item.id} className='productListItem' >
